@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="248" viewBox="0 0 420 248" role="img" aria-labelledby="title desc">
+<style>:root{--bg1:#111f33;--bg2:#0b1222;--border:#3b4a65;--ink:#f3f7ff;--muted:#c6d3e6;--line:#30415a;--iconpanel:#152139;--accent:#b3adff}@media(prefers-color-scheme:light){:root{--bg1:#f9fbff;--bg2:#f0f4fa;--border:#bbc9dd;--ink:#13233b;--muted:#455670;--line:#c4d0e2;--iconpanel:#f4f7fc;--accent:#6250a5}}@media(max-width:360px){.support,.cta{font-size:20px}.kicker{font-size:14px;letter-spacing:.6px}}@media(max-width:280px){.support,.cta{font-size:22px}}</style>
+<title id="title">WebGPU OS Browser-native desktop</title><desc id="desc">Apps, tools &amp; a shared workspace. Launch WebGPU OS. Decorative schematic, not a runtime screenshot.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="var(--bg1)"/><stop offset="1" stop-color="var(--bg2)"/></linearGradient><radialGradient id="glow"><stop stop-color="var(--accent)" stop-opacity=".12"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></radialGradient></defs>
+<rect x="5" y="1" width="410" height="236" rx="16" fill="url(#bg)" stroke="var(--border)"/>
+<ellipse cx="334" cy="70" rx="79" ry="70" fill="url(#glow)"/>
+<path d="M23 1h82" stroke="var(--accent)" stroke-width="2"/>
+<g color="var(--accent)"><g fill="var(--iconpanel)" stroke="currentColor" stroke-width="1.2"><rect x="309" y="28" width="75" height="57" rx="5" opacity=".32"/><rect x="298" y="39" width="75" height="57" rx="5" opacity=".62"/><rect x="287" y="50" width="75" height="57" rx="5"/><path d="M288 63h74M307 64v43"/><path d="M314 76h33m-33 9h23m-23 9h28" opacity=".5"/></g><g fill="currentColor"><circle cx="294" cy="56.5" r="1.5"/><circle cx="300" cy="56.5" r="1.5"/><circle cx="306" cy="56.5" r="1.5"/><rect x="292" y="70" width="9" height="6" rx="1"/><rect x="292" y="82" width="9" height="6" rx="1" opacity=".5"/></g></g>
+<g font-family="Arial,Helvetica,sans-serif"><text class="kicker" x="27" y="33" fill="var(--accent)" font-size="13" letter-spacing="1" font-family="Consolas,'Liberation Mono',monospace">02 / THE WORKSPACE</text>
+<text x="27" y="83" fill="var(--ink)" font-size="29" font-weight="700" letter-spacing="-.5">WebGPU OS</text>
+<text x="27" y="117" font-size="18" font-weight="400" fill="var(--muted)" letter-spacing="-.3">Browser-native desktop</text>
+<text class="support" x="27" y="164" fill="var(--muted)" font-size="18">Apps, tools &amp; a shared workspace.</text>
+<path d="M27 184h366" stroke="var(--line)"/>
+<text class="cta" x="27" y="216" fill="var(--accent)" font-size="18" font-weight="600">Launch WebGPU OS</text></g>
+<path d="M375 211h17m-6-6 6 6-6 6" fill="none" stroke="var(--accent)" stroke-width="1.7"/>
+</svg>

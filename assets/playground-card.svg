@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="248" viewBox="0 0 420 248" role="img" aria-labelledby="title desc">
+<style>:root{--bg1:#111f33;--bg2:#0b1222;--border:#3b4a65;--ink:#f3f7ff;--muted:#c6d3e6;--line:#30415a;--iconpanel:#152139;--accent:#8ec9ff}@media(prefers-color-scheme:light){:root{--bg1:#f9fbff;--bg2:#f0f4fa;--border:#bbc9dd;--ink:#13233b;--muted:#455670;--line:#c4d0e2;--iconpanel:#f4f7fc;--accent:#245b9a}}@media(max-width:360px){.support,.cta{font-size:20px}.kicker{font-size:14px;letter-spacing:.6px}}@media(max-width:280px){.support,.cta{font-size:22px}}</style>
+<title id="title">The Playground</title><desc id="desc">Interactive worlds &amp; GPU studies. Open the Playground. Decorative schematic, not a runtime screenshot.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="var(--bg1)"/><stop offset="1" stop-color="var(--bg2)"/></linearGradient><radialGradient id="glow"><stop stop-color="var(--accent)" stop-opacity=".12"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></radialGradient></defs>
+<rect x="5" y="1" width="410" height="236" rx="16" fill="url(#bg)" stroke="var(--border)"/>
+<ellipse cx="334" cy="70" rx="79" ry="70" fill="url(#glow)"/>
+<path d="M23 1h82" stroke="var(--accent)" stroke-width="2"/>
+<g color="var(--accent)"><g fill="none" stroke="currentColor" stroke-width="1.2"><ellipse cx="339" cy="69" rx="53" ry="18" transform="rotate(-24 339 69)" opacity=".6"/><ellipse cx="339" cy="69" rx="47" ry="20" transform="rotate(52 339 69)" opacity=".5"/><circle cx="339" cy="69" r="27"/><path d="M315 78q28-5 43-28m-31-5q1 28 30 42" opacity=".5"/></g><g fill="currentColor"><circle cx="291" cy="82" r="3"/><circle cx="367" cy="108" r="2.5"/><circle cx="380" cy="49" r="2"/><circle cx="312" cy="40" r="2"/><circle cx="341" cy="67" r="3.3"/></g></g>
+<g font-family="Arial,Helvetica,sans-serif"><text class="kicker" x="27" y="33" fill="var(--accent)" font-size="13" letter-spacing="1" font-family="Consolas,'Liberation Mono',monospace">03 / THE EXPERIMENTS</text>
+<text x="27" y="83" fill="var(--ink)" font-size="29" font-weight="700" letter-spacing="-.5">The</text>
+<text x="27" y="117" font-size="29" font-weight="700" fill="var(--ink)" letter-spacing="-.3">Playground</text>
+<text class="support" x="27" y="164" fill="var(--muted)" font-size="18">Interactive worlds &amp; GPU studies.</text>
+<path d="M27 184h366" stroke="var(--line)"/>
+<text class="cta" x="27" y="216" fill="var(--accent)" font-size="18" font-weight="600">Open the Playground</text></g>
+<path d="M375 211h17m-6-6 6 6-6 6" fill="none" stroke="var(--accent)" stroke-width="1.7"/>
+</svg>

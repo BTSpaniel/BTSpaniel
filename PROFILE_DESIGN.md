@@ -1,40 +1,51 @@
 # Profile design notes
 
-## Direction
+## Current direction
 
-Particle Realms is the shared foundation, not a collection of unrelated projects. Keep Hans / snaHt. visible, lead with Navi-inspired cyan geometry, and make the engine, WebGPU OS, Playground, and Academy easy to reach.
+Particle Realms is one shared foundation for the engine, creative tools, simulation, connected worlds, and AI research. Keep **Hans / snaHt.** visible and lead with the existing blue-glass Navi artwork, not a replacement logo. The public profile is an invitation into the project, not a catalogue of unverified claims.
 
-The new mark is an original, simplified vector interpretation of the Navi cube, with the same five-square arrangement on every face. It is branding artwork, not an engine screenshot. Existing assets in this repository were preserved, not deleted.
+The banner reuses the supplied **Holographic Cyan Cube HUD** artwork. It is cropped, resized, and embedded as WebP inside two SVG compositions. The card schematics are decorative illustrations, not screenshots or output from the engine.
 
-## Choices
+## Active presentation
 
-- Locally stored SVG artwork; no external badge/stat servers, counters, trackers, scripts, or fonts.
-- Separate desktop/mobile compositions and light/dark assets selected with `picture`.
-- Real headings, descriptive link names and image alternatives. Optional depth uses native `details` elements.
-- Soul populations, generations, training and checkpoints are described as research goals, not finished capabilities.
-- Native GitHub source activity is linked instead of fabricating or duplicating contribution statistics.
+- `assets/hero-desktop.svg` and `assets/hero-mobile.svg`: separate compositions selected with `picture`. The midnight-blue brand banner stays dark in both page themes.
+- `assets/engine-card.svg`, `assets/os-card.svg`, `assets/playground-card.svg`, and `assets/academy-card.svg`: matching project cards with internal light/dark color palettes and narrow-width typography rules.
+- One primary launch link, then source/download links. Native source activity is linked rather than recreated with a third-party statistics service.
+- Real text headings and image alternatives. Native `details`/`summary` controls keep the research and workbench readable without a wall of text.
+- Soul populations, generational learning, CPU/GPU parity, model training, and checkpoints remain qualified as research or validation goals.
+- No external fonts, JavaScript, visitor counters, analytics, remote badge servers, or statistics widgets.
 
-## References researched
+Earlier SVG variants remain in the repository. They are historical assets and are not referenced by the current README. Useful architecture, source-activity, population-target, and workbench details from the newer `197e903` profile revision were retained.
 
-- [GitHub: accessible profile READMEs](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/)
-- [GitHub: light/dark Markdown images](https://github.blog/developer-skills/github/how-to-make-your-images-in-markdown-on-github-adjust-for-dark-mode-and-light-mode/)
-- [Anthony Fu's profile source](https://github.com/antfu/antfu): restrained navigation.
-- [Caneco's profile source](https://github.com/caneco/caneco): concise personal positioning and concrete work.
-- [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme): comparison across minimal, graphical and badge-heavy approaches.
+## Research references
 
-## Review and validation
+- [Anthony Fu](https://github.com/antfu): direct navigation with little introductory clutter.
+- [Cassidy Williams](https://github.com/cassidoo): personal voice and concrete things to explore.
+- [Sindre Sorhus](https://github.com/sindresorhus): a short, recognizable introduction rather than a long skills catalogue.
+- [GitHub: responsive profile images](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+- [GitHub: collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
 
-Three local visual iterations addressed mobile typography, card spacing, compact copy, uniform cube geometry, light-theme contrast and restrained glow. Scores are subjective self-reviews, not independent artist evaluations or measured quality percentages.
+These are references for hierarchy and usability, not sources of copied artwork or a template.
 
-| Stage | Art | Design |
-|---|---:|---:|
-| Initial text/badge README | 5.0/10 | 6.0/10 |
-| First local composition | 8.6/10 | 8.4/10 |
-| Mobile/spacing revision | 9.2/10 | 9.2/10 |
-| Final local composition | 9.5/10 | 9.5/10 |
+## Self-review record
 
-Chromium local GitHub-style previews were exercised at 320, 390, 768, 1024 and 1440 CSS pixels in both themes. Image loading, variant selection, horizontal overflow, mouse and keyboard disclosure controls passed. All 20 new SVGs parse and their text bounds fit; all 20 README image references resolve locally. Selected foreground/background pairs have a minimum contrast of 6.12:1.
+The scores below are subjective visual/editing judgments. They are not independent artist evaluations, measured quality percentages, or a rating of the engine itself.
 
-**Limit:** this is a GitHub-style preview, not GitHub's renderer. Live GitHub browser navigation was blocked in the execution environment. Local checks do not prove GitHub sanitization, image-proxy behavior or the final live profile layout. Application links were inspected as web/documentation resources; this is not a GPU runtime audit of the engine or OS.
+| Pass | Art | Design | Main revision |
+| --- | ---: | ---: | --- |
+| Starting illustrated profile (`7323f3d`) | 8.4/10 | 8.0/10 | Clear identity, but label-like cards and small-screen hierarchy gaps |
+| Local composition 1 | 9.1/10 | 9.0/10 | Existing Navi artwork, bespoke schematics, mobile banner |
+| Local composition 2 | 9.4/10 | 9.3/10 | Recentered artwork, preserved highlights, corrected gradient, cleaner phone navigation |
+| Local composition 3 | 9.5/10 | 9.5/10 | Theme-aware cards, larger small-screen support text, retained architecture and activity links |
 
-A newer profile revision was discovered during the final repository check. Its population target, creative-workbench scope and useful links were retained, and the final changes are based on that newer commit rather than the earlier README snapshot.
+## Verified locally
+
+**229 checks passed, 0 failed.** The checks cover six SVGs, embedded-logo decoding, repository-local image references, descriptive alternatives, static/no-script assets, overflow, responsive hero selection, keyboard disclosure controls, enlarged text, SVG text bounds, and selected foreground/background contrast pairs.
+
+Chromium exercised the GitHub-style preview at **320, 360, 390, 430, 640, 768, 980, 1024, 1280, and 1440 CSS pixels**, in both light and dark page themes. The preview uses an approximation of GitHub styling. All five displayed images decoded at every tested width and theme. The active artwork plus README is about **45 KB** before compression; historical unused assets are not included in that count.
+
+## Verification boundary
+
+**Live github.com rendering was not verified in the screenshot browser:** navigation was blocked by the execution environment. The local tests do not certify GitHub's sanitizer, image proxy, manual theme settings, or final native layout. A successful repository write and blob verification establish that the tested source was published, not that every client displays it identically.
+
+No GPU/runtime audit of Particle Realms or WebGPU OS was performed as part of this profile design review. External destination uptime and full accessibility conformance are not claimed.
