@@ -1,91 +1,80 @@
-<div align="center">
-
-# ⚡ PARTICLE REALMS
-
-### Engine · Simulation · Artificial Intelligence · WebGPU OS
-
-**Building the engine, the world, and the intelligence inside it.**
-
-[![Particle Realms](https://img.shields.io/badge/Particle%20Realms-Explore-7c3aed?style=for-the-badge)](https://particlerealms.online)
-[![WebGPU OS](https://img.shields.io/badge/WebGPU%20OS-Launch-2563eb?style=for-the-badge)](https://particlerealms.online/webgpu-os)
-[![Engine](https://img.shields.io/badge/Engine-Source-181717?style=for-the-badge&logo=github)](https://github.com/BTSpaniel/particlerealms.engine)
-
-</div>
-
----
-
-## 👋 Hey, I'm Hans
-
-I'm an independent developer building **Particle Realms** — an experimental browser-native platform combining game-engine technology, simulation, artificial intelligence, networking, creation tools, and persistent virtual worlds.
-
-I like taking ideas that sound unreasonable and figuring out how to make them run.
-
-> **What if the browser wasn't just where the engine ran — what if the browser became the engine?**
-
-## 🌌 Particle Realms
-
-Particle Realms is being built as a shared foundation rather than a collection of disconnected tools.
-
-| | System | Focus |
-|---|---|---|
-| 🎮 | **Engine** | Browser-native rendering, worlds and gameplay |
-| ⚡ | **WebGPU / WGSL** | GPU rendering and massively parallel compute |
-| ⚛️ | **Simulation** | Physics, particles, materials and world systems |
-| 🧠 | **Soul / AI Systems** | Learning agents grounded inside simulated worlds |
-| 🌎 | **2D + 3D Worlds** | Shared environments for people and artificial agents |
-| 🔗 | **Realm Network** | P2P discovery, synchronization and distributed worlds |
-| 🛠️ | **Realm Forge** | Integrated tools for creating worlds and systems |
-| 📜 | **RealmScript** | Language/runtime experiments for the platform |
-| 🖥️ | **WebGPU OS** | A browser-native application and runtime environment |
-
-## 🧬 The Soul Project
-
-One of my largest experiments is building populations of persistent artificial **Souls** that exist inside simulated 2D and 3D worlds.
-
-The goal is to explore agents that can perceive and interact with their environment, learn language through grounded experience, develop knowledge and relationships, communicate and teach one another, form families and generations, and contribute what they learn back into a shared intelligence system.
-
-Instead of training intelligence entirely outside a world, I'm interested in what happens when **the world itself becomes part of the training system**.
-
-## 🔬 Current Research
-
-**Language + World Models** — Language grounded in observer perspective, spatial context, objects, relationships, tasks, conversation roles and experience.
-
-**Artificial Life** — Populations, generations, learning, memory, relationships and emergent behavior.
-
-**WebGPU Compute** — Rendering, physics, simulation and AI workloads running through modern browser GPU APIs.
-
-**Physics + Digital Worlds** — PhysX, particles, fluids, materials, soft bodies, procedural systems and physically interactive environments.
-
-**Distributed Simulation** — WebRTC, peer discovery, synchronization, trust systems and distributed worlds.
-
-## 🛠️ Technology
-
+<!-- Particle Realms profile. Artwork is local; no counters, tracking pixels or remote stats services. -->
 <p align="center">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" />
-<img src="https://img.shields.io/badge/WebGPU-005A9C?style=for-the-badge" />
-<img src="https://img.shields.io/badge/WGSL-GPU-6d28d9?style=for-the-badge" />
-<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" />
-<img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <a href="https://particlerealms.online/">
+    <img src="assets/particle-realms.svg" width="100%" alt="Particle Realms — One foundation. Many worlds. Hans / snaHt. JavaScript, WebGPU, simulation and AI research. Blue-glass Navi cube." />
+  </a>
 </p>
 
-## 🚀 Featured Project
+<p align="center">
+  <strong>Building the engine, the worlds, and the intelligence inside them.</strong><br />
+  <a href="https://particlerealms.online/playground/">Playground</a> &nbsp; · &nbsp;
+  <a href="https://particlerealms.online/webgpu-os/">WebGPU OS</a> &nbsp; · &nbsp;
+  <a href="https://github.com/BTSpaniel/particlerealms.engine/releases">Downloads</a>
+</p>
 
-### [Particle Realms Engine](https://github.com/BTSpaniel/particlerealms.engine)
+## I'm Hans / snaHt.
 
-A browser-native engine built around **JavaScript + WebGPU/WGSL**, with experiments spanning rendering, physics, simulation, networking, tools and artificial intelligence.
+I build **Particle Realms**: a browser-native foundation for games, creative tools, simulations, and AI. One shared platform instead of a different engine for every idea.
+
+I want worlds you can build in, break apart, and teach.
+
+### Explore what I'm building
+
+<p align="center">
+  <a href="https://github.com/BTSpaniel/particlerealms.engine"><img src="assets/engine.svg" width="395" alt="Particle Realms Engine — rendering, physics and world systems. Explore the engine and releases." /></a>
+  <a href="https://particlerealms.online/webgpu-os/"><img src="assets/os.svg" width="395" alt="WebGPU OS — a browser desktop for apps and creation tools. Launch the desktop." /></a>
+  <a href="https://particlerealms.online/playground/"><img src="assets/playground.svg" width="395" alt="The Playground — interactive engine studies. Enter the observatory." /></a>
+  <a href="https://particlerealms.online/learn/"><img src="assets/learn.svg" width="395" alt="Engine Academy — learn the engine and build something of your own. Open the lessons." /></a>
+</p>
+
+<p align="center">
+  <a href="https://particlerealms.online/api/">API reference</a> &nbsp; · &nbsp;
+  <a href="https://particlerealms.online/guide/">Guide</a> &nbsp; · &nbsp;
+  <a href="https://github.com/BTSpaniel/particlerealms.engine-master-server">P2P server</a>
+</p>
+
+### The foundation
+
+**JavaScript · WebGPU · WGSL · WebAssembly · PhysX · WebRTC**
+
+Rendering, physics, audio, networking, and creation tools share the same foundation. The client runs on native browser APIs without a Node.js runtime; Python supports tooling and testing.
+
+### Soul research
+
+**What happens when the world becomes part of the training system?**
+
+I'm exploring AI agents that learn through language, perception, interaction, and shared experience inside 2D and 3D worlds. Shared knowledge; individual identities and memories.
+
+<details>
+<summary><strong>Souls, generations, and grounded language</strong></summary>
+
+The target is about **100 Souls in a 2D world and 100 in a 3D world**: observable populations that can learn, communicate, form relationships and families, and pass knowledge between generations.
+
+A shared dictionary and learning system provide common ground. Each Soul retains its own context, personality, goals, and memories rather than becoming a copy of everyone else. Language should refer to what an agent can actually perceive, who it is talking to, and what they are doing together.
+
+This is a **research direction, not a claim of finished artificial life or general intelligence**. The aim is measurable learning, persistent checkpoints, and worlds you can watch and interact with—not a scripted demo presented as a trained model.
+
+</details>
+
+<details>
+<summary><strong>Other work on the bench</strong></summary>
+
+**Realm Forge + RealmScript** — integrated creation tools and language/runtime research.
+
+**Physical worlds** — particles, fluids, procedural materials, mechanical systems, and digital-twin experiments.
+
+**Connected worlds** — peer discovery, synchronization, and shared spaces. The optional master server provides discovery and signaling, not gameplay authority.
+
+**Creative tools** — experiments in music, modeling, books, and making things inside the platform.
+
+These areas are at different stages of development. The engine documentation and individual releases are the reference for available capabilities.
+
+</details>
 
 ---
 
-<div align="center">
-
-### 🌱 One foundation. Many worlds.
-
-**Render it · Simulate it · Teach it · Connect it · Let it evolve**
-
-[Website](https://particlerealms.online) · [Engine](https://github.com/BTSpaniel/particlerealms.engine) · [WebGPU OS](https://particlerealms.online/webgpu-os)
-
-<sub>Built by Hans / snaHt. 🇨🇦</sub>
-
-</div>
+<p align="center">
+  <strong>One foundation. Many worlds.</strong><br />
+  Render it. Simulate it. Teach it. Connect it.<br /><br />
+  <a href="https://particlerealms.online/">Particle Realms</a> · Hans / snaHt.
+</p>
